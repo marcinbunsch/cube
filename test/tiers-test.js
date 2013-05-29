@@ -13,7 +13,7 @@ suite.addBatch({
         keys.push(+key);
       }
       keys.sort(function(a, b) { return a - b; });
-      assert.deepEqual(keys, [1e4, 6e4, 3e5, 9e5, 18e5, 36e5, 864e5]);
+      assert.deepEqual(keys, [1e4, 6e4, 3e5, 9e5, 18e5, 36e5, 864e5, 6048e5, 24192e5, 290304e5]);
     }
   },
 
